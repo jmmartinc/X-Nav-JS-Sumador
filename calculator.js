@@ -6,10 +6,10 @@ function adder(){
         var b = parseInt(num[1]);
         var c = a + b;
         var res = document.getElementById("res");
-        res.innerHTML=" = "+c.toString();
+        res.innerHTML = " = " + c.toString();
     };
 
 function random_adder(){
         var vari = document.getElementById("op");
-        vari.innerHTML=(Math.floor(Math.random()*1000)+"+"+Math.floor(Math.random()*1000));
+        vari.innerHTML = (Math.floor(Math.random()*1000) + "+" + Math.floor(Math.random()*1000));
 }
